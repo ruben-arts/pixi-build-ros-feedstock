@@ -16,7 +16,7 @@ source:
   sha256: c5d3e3e10b8ee5c0abcaf274259ceafe4274fe81fe4b1ff3a02ae73654f74782
 
 build:
-  number: 0
+  number: 1
   script:
   - cd pixi-build-backends/backends/pixi-build-ros
   - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
